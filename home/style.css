@@ -1,0 +1,162 @@
+.container-presentation {
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-presentation {
+    height: 600px;
+    width: 1110px;
+}
+
+.text-home {
+    color: #5FB4A2;
+}
+
+.text-presentation {
+    position: absolute;
+    top: 243px;
+
+    width: 445px;
+    height: 357px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FAFAFA;
+}
+
+.text-presentation h1 {
+
+    position: relative;
+    top: 56px;
+    left: 28px;
+
+    width: 390px;
+    height: 300px;
+}
+
+
+
+.about-icon-presentation {
+
+    position: absolute;
+    top: 552px;
+
+    background-color: #203A4C;
+}
+
+.about-icon-presentation a div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+    background: rgb(27, 48, 63);
+
+}
+
+.about-icon-presentation a {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 200px;
+    height: 48px;
+
+    color: white;
+
+}
+
+.about-icon-presentation p {
+    position: relative;
+    right: 32px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.about-icon-presentation a div:hover {
+    background-color: #3c7469;
+
+}
+
+.about-icon-presentation:hover {
+    background-color: #5FB4A2;
+}
+
+
+
+
+
+
+
+.container-about {
+    display: flex;
+
+    justify-content: center;
+}
+
+.container-about div {
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 150px;
+
+    width: 1110px;
+    height: 600px;
+
+}
+
+.image-profile-about img {
+    height: 600px;
+    width: 540px;
+}
+
+.text-about {
+    align-items: center;
+    width: 430px;
+    height: 600px;
+    margin-left: 140px;
+    padding-top: 51px;
+    padding-bottom: 46px;
+
+    border-top: solid 1px #33323d32;
+    border-bottom: solid 1px #33323d32;
+
+}
+
+.text-about h2 {
+    width: 430px;
+    height: 42px;
+    margin-bottom: 28px;
+}
+
+
+
+.button-portfolio {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+    width: 204px;
+    height: 48px;
+    background-color: #F2F2F2;
+    border: 1px solid #33323D;
+
+    margin-top: 24px;
+
+    position: relative;
+    left: 25%;
+
+}
