@@ -1,0 +1,120 @@
+.header-nav-contato {
+    color: #5FB4A2;
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-contact-me {
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    margin-top: 30px;
+    padding: 48px 0px 48px 0px;
+
+    border-top: solid 1px #33323d32;
+    border-bottom: solid 1px #33323d32;
+
+
+
+}
+
+.container-social a {
+    margin-right: 12px;
+}
+
+
+.container-contact-me div h2 {
+
+    width: 350px;
+    height: 42px;
+
+    margin-right: 125px;
+
+}
+
+.container-contact-me div p {
+
+    width: 635px;
+    height: 180px;
+
+    line-height: 30px;
+
+    margin-bottom: 54px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1110px;
+    height: 426px;
+    margin-top: 48px;
+
+
+}
+
+.container-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 635px;
+    height: 426px;
+}
+
+#box-name {
+    width: 635px;
+    height: 48px;
+}
+
+#box-email {
+    width: 635px;
+    height: 48px;
+}
+
+#box-mensagem {
+    width: 635px;
+    height: 96px;
+}
+
+input {
+    background-color: #33323d33;
+    border: none;
+}
+
+.letra-bold {
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+
+}
+
+.button:hover {
+    background-color: #5FB4A2;
+}
+
+.button a {
+    color: white;
+}
