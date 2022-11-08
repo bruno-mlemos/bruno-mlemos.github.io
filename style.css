@@ -1,0 +1,7 @@
+.container-list {
+    display: flex;
+}
+
+.list {
+    margin-bottom: 10px;
+}
