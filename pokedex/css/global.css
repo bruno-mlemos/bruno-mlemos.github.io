@@ -1,0 +1,8 @@
+@import url(./reset.css);
+
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 16px;
+}

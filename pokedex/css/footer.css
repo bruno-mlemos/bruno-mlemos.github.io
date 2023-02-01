@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 39px;
+    background-color: var(--pink-900);
+}
+
+.footer__content {
+    height: 88px;    
+}
+
+.footer__text {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--white-900);
+}

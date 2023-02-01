@@ -1,0 +1,108 @@
+/* --------------  modal  -------------- */
+.modal__overlay {
+  position: fixed;
+  height: 0;
+  width: 0;
+  left: -99999px;
+  display: none;
+}
+
+.modal__overlay.active {
+  inset: 0;
+  background-color: rgba(102, 102, 102, 0.5);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+
+}
+
+.modal {
+  width: 550px;
+  min-height: 538px;
+  background-color: var(--white-900);
+  border-radius: 8px;
+  padding: 28px 34px;
+  position: relative;
+  text-align: center;
+}
+
+.modal__close {
+  right: 34px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.modal__name {
+  margin-top: 51px;
+  text-align: center;
+  font-size: 32px;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+}
+
+.modal__image {
+  width: 250px;
+  max-height: 250px;
+}
+
+.modal__info {
+  gap: 0 13px;
+  min-width: 107px;
+}
+
+.modal__weight,
+.modal__height {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.modal__value {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.arrow {
+  position: absolute;
+  top: 250px;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 26px;
+}
+
+.arrow-right {
+  right: 26px;
+}
+
+.modal__categories {
+  text-align: left;
+  margin-bottom: 25px;
+  gap: 24px;
+}
+
+.modal__content {
+  width: 500px;
+  margin: auto;
+}
+
+.btn--category {
+  background-color: var(--pink-900);
+  border: 1px solid var(--pink-900);
+  color: var(--white-900)
+}
+
+.modal-img-not-found {
+
+  height: 250px;
+  color: var(--pink-900);
+  position: relative;
+  top: 90px;
+
+}
+
+.modal-img-position {
+  position: relative;
+  bottom: 90px;
+}

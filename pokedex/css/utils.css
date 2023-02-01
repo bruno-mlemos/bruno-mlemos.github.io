@@ -1,0 +1,31 @@
+.content__flex {
+    display: flex;
+}
+
+.align__center {
+    align-items: center;
+}
+
+.justify__center {
+    justify-content: center;
+}
+
+.justify__between {
+    justify-content: space-between;
+}
+
+.gap-13 {
+    gap: 13px;
+}
+
+.gap-54 {
+    gap: 54px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.flex__wrap {
+    flex-wrap: wrap;
+}
